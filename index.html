@@ -11,14 +11,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--custom css-->
     <link href="index.css" rel="stylesheet">
+    <link href="general.css" rel="stylesheet">
+    <link href="other-pages.css" rel="stylesheet">
 
 
 </head>
 <body>
     <div id="navigation" class="row align-middle justify-content-center">
-        <div id="PL2-name" class="col-5">Personalized Learning&sup2;</div>
-        <div class="col-2 nav-item all-caps">Our Mission</div>
-        <div class="col-2 nav-item all-caps">Using PL&sup2;</div>
+        <div class="col-5">
+            <a id="PL2-name" href="index.html">
+                <img href="index.html" class="pl2-logo" src="images/pl2-logo.svg">
+                Personalized Learning&sup2;
+            </a>
+        </div>
+        <div class="col-2 nav-item all-caps"><a href="our-mission.html">Our Mission</a></div>
+        <div class="col-2 nav-item all-caps">
+            <a href="using-pl2.html">Using PL&sup2;</a>
+        </div>
        <div class="col-2 nav-item"><button id="pl2-btn" type="button" class="btn btn-outline-primary all-caps">PL&sup2; APP</button></div>
     </div>
     <div id="home" class="row justify-content-center">
@@ -29,45 +38,80 @@
             <div id="home-blurb">
                 PL² is a project addressing the opportunity gap for marginalized students through personal mentoring and tutoring with artificial intelligence learning software.
             </div>
-            <button type="button" class="btn btn-primary btn-sm all-caps">Get Involved</button>
+            <a href="mailto:sekulaconsulting@gmail.com" class="btn btn-primary btn-sm all-caps">Get Involved</a>
         </div>
         <div id="home-img" class="col-5 img-placeholder"></div>
     </div>
-    <div id="home-sub-1" class="row justify-content-center home-section">
-        <div id="sub-1-img" class="col-5 img-placeholder"></div>
+    <div id="home-sub-1" class="row justify-content-center home-section-container">
+        <div class="col-md-10 row justify-content-between home-section">
 
-        <div class="col-5">
-            <div class="sub-header">
-                Mentoring meets technology
-            </div>
-            <div class="sub-blurb">
-                Personalized mentoring and tutoring in small groups can promote the social, emotional, and motivational conditions that support student success. Learning software, powered by AI, adapts curriculum and content to each student’s unique learning speed and style. PL² combines these two proven approaches to help mentors practice culturally-responsive teaching that is informed by their students’ progress in learning software.
+            <div id="sub-1-img" class="col-5 img-placeholder"></div>
+
+            <div class="col-5">
+                <div class="sub-header">
+                    Mentoring meets technology
+                </div>
+                <div class="sub-blurb">
+                    Personalized mentoring and tutoring in small groups can promote the social, emotional, and motivational conditions that support student success. Learning software, powered by AI, adapts curriculum and content to each student’s unique learning speed and style. PL² combines these two proven approaches to help mentors practice culturally-responsive teaching that is informed by their students’ progress in learning software.
+                </div>
             </div>
         </div>
         
     </div>
-    <div id="home-sub-2" class="row justify-content-center home-section">
-        
-
-        <div class="col-5">
-            <div class="sub-header">
-                Mentoring meets technology
+    <div id="home-sub-2" class="row justify-content-center home-section-container">
+        <div class="col-md-10 row justify-content-between home-section">
+            <div class="col-5">
+                <div class="sub-header">
+                    Piloting in Greater Pittsburgh
+                </div>
+                <div class="sub-blurb">
+                    PL² is using this combination to support math learning for students in southwestern Pennsylvania. The pilot specifically includes schools with high populations of students of color and/or students impacted by poverty. Once we find the optimal combination to facilitate learning, these new methods can be deployed across different educational software products, subjects, grade levels, and states.
+                </div>
             </div>
-            <div class="sub-blurb">
-                Personalized mentoring and tutoring in small groups can promote the social, emotional, and motivational conditions that support student success. Learning software, powered by AI, adapts curriculum and content to each student’s unique learning speed and style. PL² combines these two proven approaches to help mentors practice culturally-responsive teaching that is informed by their students’ progress in learning software.
-            </div>
+            <div id="sub-2-img" class="col-5 img-placeholder"></div>
         </div>
-        <div id="sub-2-img" class="col-5 img-placeholder"></div>
-        
         
     </div>
-    <div class="footer row justify-content-center">
-            <div class="col-md-4">Interested in learning more? Want to get involved?<br> 
-Email Anne Sekula at sekulaconsulting@gmail.com</div>
-            <div class="col-md-2 footer-item">Terms of Use</div>
-            <div class="col-md-3 footer-item">Personalized Learning² © 2019</div>
-            <div class="col-md-2 footer-item">Sponsored by</div>
+
+    <div class="home-section-container row justify-content-center">
+        <div id="collab-title" class="all-caps col-md-12">A collaboration between</div>
+        <div class="col-md-10 row justify-content-between">
+            <a href="https://learnlab.org/" id="learnlab-square" class="col-md-5 row collab-square justify-content-center">
+                <div class="col-11 row justify-content-center">
+                    <div id="learnlab-logo-container">
+                        <img id="learnlab-logo" class="col-md-12" src="images/learnlab-logo.png">
+                    </div>
+                    <div class="col-md-12 collab-text">
+                        <div class="inline collab-header">Learnlab at Carnegie Mellon University,</div>
+                        <div class="collab-text">a national hub for research and development of ed tech, artificial intelligence, and learning science</div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.cue.pitt.edu/" id="cue-square" class="col-md-5 row collab-square justify-content-center">
+                <div class="col-11 row justify-content-center">
+                    <div id="cue-logo-container">
+                        <img id="cue-logo" class="col-md-12" src="images/cue-logo.png">
+                    </div>
+                    <div class="col-md-12 collab-text">
+                        <div class="inline collab-header">The University of Pittsburgh Center for Urban Education,</div>
+                        <div class="collab-text">
+                         a nationally recognized center of excellence for research and service in urban education</div>
+                     </div>
+                </div>
+            </a>
+        </div>
     </div>
+
+<div class="footer row justify-content-center">
+        <div id="footer-email" class="col-md-4 inline">Interested in learning more? Want to get involved? Email Anne Sekula at <a href="mailto:sekulaconsulting@gmail.com" class="regular inline footer-link">sekulaconsulting@gmail.com</a></div>
+        <a target="_blank" href="https://www.cmu.edu/legal/" class="col-md-2 footer-item regular footer-link">Terms of Use</a>
+        <div class="col-md-3 footer-item">Personalized Learning² © 2019</div>
+        <div class="col-md-2 footer-item">
+            Supported by&nbsp;&nbsp;
+            <a href="https://chanzuckerberg.com/grants-ventures/grants/"><img id="czi-logo" src="images/czi-logo.svg"></a>
+        </div>
+    </div>
+
 
 </body>
 </html>
