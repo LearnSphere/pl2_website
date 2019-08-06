@@ -1,9 +1,25 @@
 #home{
-    padding-top: 130px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     padding-bottom: 150px;
     margin: 0;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#home-img{
+    text-align: right;
+    height: 470px;
+}
+
+#home-img img{
+    height: 100%;
 }
 
 #home-title{

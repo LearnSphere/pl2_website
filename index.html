@@ -13,10 +13,12 @@
     <link href="index.css" rel="stylesheet">
     <link href="general.css" rel="stylesheet">
     <link href="other-pages.css" rel="stylesheet">
+    <!--custom js-->
+    <script src="main.js"></script>
 
 
 </head>
-<body>
+<body onload="draw();">
     <div id="navigation" class="row align-middle justify-content-center">
         <div class="col-5">
             <a id="PL2-name" href="index.html">
@@ -33,6 +35,7 @@
        </div>
     </div>
     <div id="home" class="row justify-content-center">
+        <canvas id='canvas' width="3000" height="1300"></canvas>
         <div id="home-text" class="col-5">
             <div id="home-title">
                 Personalized Learning² (PL²), <br>powered by people and technology
@@ -42,7 +45,7 @@
             </div>
             <a href="mailto:sekulaconsulting@gmail.com" class="btn btn-primary btn-sm all-caps">Get Involved</a>
         </div>
-        <div id="home-img" class="col-5 img-placeholder"></div>
+        <div id="home-img" class="col-5"><img src="images/PL2_Home.png"></div>
     </div>
     <div id="home-sub-1" class="row justify-content-center home-section-container">
         <div class="col-md-10 row justify-content-between home-section">
@@ -62,7 +65,7 @@
     </div>
     <div id="home-sub-2" class="row justify-content-center home-section-container">
         <div class="col-md-10 row justify-content-between home-section">
-            <div class="col-5">
+            <div class="col-md-5">
                 <div class="sub-header">
                     Piloting in Greater Pittsburgh
                 </div>
@@ -70,7 +73,7 @@
                     PL² is using this combination to support math learning for students in southwestern Pennsylvania. The pilot specifically includes schools with high populations of students of color and/or students impacted by poverty. Once we find the optimal combination to facilitate learning, these new methods can be deployed across different educational software products, subjects, grade levels, and states.
                 </div>
             </div>
-            <div id="sub-2-img" class="col-5 img-placeholder"></div>
+            <div id="sub-2-img" class="col-md-5 img-placeholder"></div>
         </div>
         
     </div>
@@ -79,7 +82,7 @@
         <div id="collab-title" class="all-caps col-md-12">A collaboration between</div>
         <div class="col-md-10 row justify-content-between">
             <a href="https://learnlab.org/" id="learnlab-square" class="col-md-5 row collab-square justify-content-center">
-                <div class="col-11 row justify-content-center">
+                <div class="col-md-11 row justify-content-center">
                     <div id="learnlab-logo-container">
                         <img id="learnlab-logo" class="col-md-12" src="images/learnlab-logo.png">
                     </div>
@@ -90,7 +93,7 @@
                 </div>
             </a>
             <a href="https://www.cue.pitt.edu/" id="cue-square" class="col-md-5 row collab-square justify-content-center">
-                <div class="col-11 row justify-content-center">
+                <div class="col-md-11 row justify-content-center">
                     <div id="cue-logo-container">
                         <img id="cue-logo" class="col-md-12" src="images/cue-logo.png">
                     </div>
