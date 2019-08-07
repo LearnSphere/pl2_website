@@ -6,6 +6,17 @@
 
 }
 
+.feature-img{
+    padding-top:20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+    height: 150px;
+    width: 150px;
+}
+
 .section-container{
     padding-top: 70px;
     padding-bottom: 40px;
@@ -48,6 +59,7 @@
     text-align: center;
     padding-top: 10px;
     color: #7B7B7B;
+
 }
 
 .school-header{
