@@ -6,6 +6,17 @@
 
 }
 
+#bridging-img{
+    text-align: left;
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+#bridging-img img{
+    width: 100%;
+}
+
 .feature-img{
     padding-top:20px;
     text-align: center;

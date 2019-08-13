@@ -18,8 +18,31 @@ canvas{
     height: 470px;
 }
 
+#mentor-img{
+    text-align: left;
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+#map-img{
+    text-align: right;
+    height: 470px;
+    display: flex;
+    align-items: center;
+}
+
+#map-img img{
+    width: 100%;
+}
+
 #home-img img{
     height: 100%;
+}
+
+#mentor-img img{
+    width: 100%;
+
 }
 
 #home-title{
