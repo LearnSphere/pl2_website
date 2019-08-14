@@ -1,9 +1,10 @@
 #home{
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     align-items: center;
     padding-bottom: 150px;
     margin: 0;
+    overflow: hidden;
 }
 
 canvas{
@@ -16,6 +17,21 @@ canvas{
 #home-img{
     text-align: right;
     height: 470px;
+}
+
+#down-arrow{
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+#home-text{
+    padding-top: 30px;
+}
+
+#down-arrow img{
+    height: 35px;
+    width: 35px;
 }
 
 #mentor-img{
