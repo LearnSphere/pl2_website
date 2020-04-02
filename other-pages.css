@@ -17,6 +17,7 @@
     width: 100%;
 }
 
+.release-note-img,
 .feature-img{
     padding-top:20px;
     text-align: center;
@@ -28,9 +29,36 @@
     width: 150px;
 }
 
+.release-note-img img{
+    width: 55%;
+    background-color: #F4F6F8;
+}
+
+.release-notes {
+    padding-bottom: 0px;
+}
+
+.release-notes a {
+    color: #064084;
+    text-decoration: underline;
+}
+
+.videos {
+    padding-top: 0px;
+}
+
+.bottom-pad {
+    padding-bottom: 20px;
+}
+
 .section-container{
     padding-top: 70px;
     padding-bottom: 40px;
+    margin: 0;
+}
+
+.section-container-mod {
+    padding-top: 70px;
     margin: 0;
 }
 
