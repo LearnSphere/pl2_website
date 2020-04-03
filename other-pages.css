@@ -58,7 +58,7 @@
 }
 
 .section-container-mod {
-    padding-top: 70px;
+    padding-top: 50px;
     margin: 0;
 }
 
@@ -113,3 +113,8 @@
     font-size: 0.9rem;
     display: inline;
 }
+
+.col-md-5 p {
+    font-style: italic;
+}
+
