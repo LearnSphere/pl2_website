@@ -18,6 +18,11 @@ body{
     font-size: .8rem;
 }
 
+.use-pl2-btn{
+    font-size: .8rem;
+    text-align: center;
+}
+
 .btn-outline-primary{
     
     color: #3466BB;

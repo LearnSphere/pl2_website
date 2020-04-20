@@ -16,3 +16,11 @@ function draw() {
     ctx.closePath();
   }
 }
+
+function initialize() {
+    draw();
+
+    $('#covid-modal').modal({
+        show: true
+    });
+}

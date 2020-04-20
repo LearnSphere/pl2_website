@@ -14,23 +14,23 @@
     <link href="general.css" rel="stylesheet">
     <link href="other-pages.css" rel="stylesheet">
     <!--custom js-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
     <script src="main.js"></script>
 
     <link rel="icon" href="favicon.ico" />
 
 </head>
-<body onload="draw();">
+<body onload="initialize();">
     <div id="navigation" class="row align-middle justify-content-center">
-        <div class="col-5">
+        <div class="col-4">
             <a id="PL2-name" href="index.html">
                 <img href="index.html" class="pl2-logo" src="images/pl2-logo.svg">
                 Personalized Learning&sup2;
             </a>
         </div>
+        <div class="col-2 nav-item all-caps"><a href="covid19-free.html">Use PL&sup2; for Free</a></div>        
         <div class="col-2 nav-item all-caps"><a href="our-mission.html">Our Mission</a></div>
-        <div class="col-2 nav-item all-caps">
-            <a href="using-pl2.html">Using PL&sup2;</a>
-        </div>
+        <div class="col-2 nav-item all-caps"><a href="pl2-overview.html">PL&sup2; Overview</a></div>
        <div class="col-2 nav-item">
             <button onclick="window.open('https://pl2.andrew.cmu.edu/PL2', '_blank'); return false;" id="pl2-btn" type="button" class="btn btn-outline-primary all-caps">PL&sup2; APP</button>
        </div>
@@ -116,6 +116,26 @@
         </div>
     </div>
 
+    <div class="modal" tabindex="-1" role="dialog" id="covid-modal">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">COVID-19 Response</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>We are offering our app, PL&sup2;, for free for parents and teachers to use to support their children and students as they learn math at home online. We are partnering with MATHia, an educational technology platform from Carnegie Learning, who is offering free access to their grades 6-12 math resources during the COVID-19 pandemic.</p>
+            <p>Details can be found on our <a href="covid19-free.html">Use PL&sup2; for Free</a> tab.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 <div class="footer row justify-content-center">
         <div id="footer-email" class="col-md-4 inline">Interested in learning more? Want to get involved? Email Anne Sekula at <a target="_blank" href="mailto:sekulaconsulting@gmail.com;pl2-app-help@lists.andrew.cmu.edu" class="regular inline footer-link">sekulaconsulting@gmail.com</a></div>
         <a target="_blank" href="https://www.cmu.edu/legal/" class="col-md-2 footer-item regular footer-link">Terms of Use</a>
@@ -125,7 +145,6 @@
             <a target="_blank" href="https://chanzuckerberg.com/grants-ventures/grants/"><img id="czi-logo" src="images/czi-logo.svg"></a>
         </div>
     </div>
-
 
 </body>
 </html>
