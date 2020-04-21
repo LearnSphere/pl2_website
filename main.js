@@ -20,7 +20,12 @@ function draw() {
 function initialize() {
     draw();
 
+    let returning = localStorage['visited'];
+    if (!returning) {
+        localStorage['visited'] = true;
+    }
+
     $('#covid-modal').modal({
-        show: true
+        show: !returning
     });
 }
